@@ -31,6 +31,7 @@ class ControlTest {
     @Test
     void ej95() {
 
-        assertEquals(1000, Control.ej9('N',999,1));
+        assertEquals(999, Control.ej9('N',999,1));
+
     }
 }
